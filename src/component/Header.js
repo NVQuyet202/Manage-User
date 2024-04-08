@@ -47,11 +47,11 @@ const Header = (props) => {
                   <NavLink to="/" className="nav-link">
                     Home
                   </NavLink>
-                  {user && user.auth === true && (
-                    <NavLink to="/users" className="nav-link">
-                      Manage Users
-                    </NavLink>
-                  )}
+                  {/* {user && user.auth === true && ( */}
+                  <NavLink to="/users" className="nav-link">
+                    Manage Users
+                  </NavLink>
+                  {/* )} */}
                 </Nav>
                 <Nav>
                   {user && user.email && (
